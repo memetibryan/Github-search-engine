@@ -1,0 +1,15 @@
+body {
+  background-color: grey;
+}
+
+.about{
+  background-color: green;
+}
+
+header {
+  text-align: center;
+  background-color: orange;
+  font-weight: bold;
+  padding: 20px;
+  font-family: cursive;
+}
