@@ -1,4 +1,4 @@
-var apiKey = "16a86ec9183c7dc12b1bf9dbdb6648331d241522";
+var apiKey = require('./../.env').apiKey;
 
 function Github(userName) {
   this.user = userName;
