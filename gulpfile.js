@@ -21,6 +21,7 @@ var lib = require('bower-files')({
     }
   }
 });
+
 gulp.task('bower', ['bowerJS', 'bowerCSS']);
 var browserSync = require('browser-sync').create(); //development server
 
