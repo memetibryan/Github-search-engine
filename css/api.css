@@ -1,9 +1,6 @@
 body {
-  background-color: grey;
-}
-
-.about{
-  background-color: green;
+  background-image: url(http://wallpapercave.com/wp/GtVhaJC.jpg);
+  color: orange;
 }
 
 header {
@@ -12,4 +9,5 @@ header {
   font-weight: bold;
   padding: 20px;
   font-family: cursive;
+  color: black;
 }
