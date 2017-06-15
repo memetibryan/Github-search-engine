@@ -1,6 +1,6 @@
 body {
   background-image: url(http://wallpapercave.com/wp/GtVhaJC.jpg);
-  color: orange;
+  color: blue;
 }
 
 header {
@@ -10,4 +10,9 @@ header {
   padding: 20px;
   font-family: cursive;
   color: black;
+}
+
+p.hover{
+	font-family: cursive;
+	font-size: 25px;
 }

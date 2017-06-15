@@ -3,40 +3,38 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/api.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">  
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>GITHUB Search</title>
   </head>
 
   <header>
-    <div class="jumbotron">
       <h1>Github Search Engine</h1>
-    </div>
   </header>
 
   <body>
     <form id="form1">
-      <input id="input1" type="text" class="form-control" placeholder="Input name">
-      <button class="btn-default" id="button1">Search</button>
+      <input id="input1" type="text" placeholder="Input name">
+      <button class="btn-success" id="button1">Search</button>
+    </form>
 
   <div class="container-fluid">
   <div class="row">
+  <div class="col-md-6">
+  <p>Click on the name to show its contents</p>
+  <ul id="show"></ul>
+  </div>
 
-  <div id="col-md-8">
-  <ul id="show">
-  </ul>
-  <div>
-
-  <div id="col-md-4">
+  <div class="col-md-6">
   <ul id="output">
   </ul>
+</div>
+  
+  
+ </div>
   </div>
-
-  </div>
-  </div>
-  </div>
-
-    </form>
+  <script src="jQuery/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
