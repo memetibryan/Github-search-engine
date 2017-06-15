@@ -6,7 +6,7 @@ $(document).ready(function() {
     var simpleGithub = new Github("");
     var output = simpleGithub.github(find);
     output.forEach(function(display) {
-       $("#output").text(display);
+       
     });
   });
 });
