@@ -1,6 +1,6 @@
 body {
-  background-image: url(http://wallpapercave.com/wp/GtVhaJC.jpg);
-  color: blue;
+  background-image: url(https://i.ytimg.com/vi/SCNWWfXpCw0/maxresdefault.jpg);
+  color: white;
 }
 
 header {
@@ -15,4 +15,12 @@ header {
 p.hover{
 	font-family: cursive;
 	font-size: 25px;
+}
+
+.output{
+  color: white;
+}
+
+.show{
+  color: white;
 }

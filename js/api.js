@@ -39,17 +39,3 @@ Github.prototype.github = function(find) {
 };
 
 exports.githubModule = Github;
-
-
-/*var show = $('response').val();
-      $('response').val("");
-      $("#output").html(show);
-
-      Object { login: "memetibryan", 
-      id: 27344607, 
-      avatar_url: "https://avatars0.githubusercontent.…", 
-      gravatar_id: "", url: "https://api.github.com/users/memeti…", 
-      html_url: "https://github.com/memetibryan", 
-      followers_url: "https://api.github.com/users/memeti…", 
-      following_url: "https://api.github.com/users/memeti…", 
-      gists_url: "https://api.github.com/users/memeti…",*/
